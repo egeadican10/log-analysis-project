@@ -18,6 +18,11 @@ This project simulates a distributed brute force attack and analyzes logs to det
 - Log Analysis
 - Attack Detection
 - Incident Response
+-
+-
+-
+-
+-
 
 
 #log scenario
@@ -41,6 +46,10 @@ This project simulates a distributed brute force attack and analyzes logs to det
 
 2026-04-18 10:00:40 [ERROR] Permission denied /root (user: admin, ip: 91.21.33.5)
 2026-04-18 10:00:45 [WARN] Suspicious privilege escalation attempt (user: admin, ip: 91.21.33.5)
+-
+-
+-
+-
 
 
 
