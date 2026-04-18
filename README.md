@@ -25,7 +25,7 @@ This project simulates a distributed brute force attack and analyzes logs to det
 -
 
 
-#log scenario
+-#log scenario
 -2026-04-18 09:59:58 [INFO] GET /home (ip: 185.23.11.9)
 -2026-04-18 10:00:00 [INFO] GET /login (ip: 201.44.12.8)
 -2026-04-18 10:00:01 [INFO] GET /admin (ip: 91.21.33.5)
