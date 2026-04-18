@@ -45,6 +45,7 @@ This project simulates a distributed brute force attack and analyzes logs to det
 -2026-04-18 10:00:30 [INFO] GET /admin/settings (user: admin, ip: 91.21.33.5)
 
 -2026-04-18 10:00:40 [ERROR] Permission denied /root (user: admin, ip: 91.21.33.5)
+
 -2026-04-18 10:00:45 [WARN] Suspicious privilege escalation attempt (user: admin, ip: 91.21.33.5)
 -
 -
