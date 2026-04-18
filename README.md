@@ -1,28 +1,5 @@
 
-# Log Analysis Project
 
-## Description
-This project simulates a distributed brute force attack and analyzes logs to detect suspicious patterns.
-
-## Logs Used
-- Access logs
-- Authentication logs
-- Error logs
-
-## Key Findings
-- Multiple IP login attempts detected
-- Successful login after repeated failures
-- Privilege escalation attempt observed
-
-## Skills
-- Log Analysis
-- Attack Detection
-- Incident Response
--
--
--
--
--
 
 
 
@@ -62,3 +39,28 @@ Multiple IP addresses attempted authentication, suggesting coordinated attack be
 Successful login after multiple failures indicates account compromise.
 
 Subsequent privilege escalation attempts were detected via unauthorized root access attempts.
+
+
+
+Incident Type: Distributed Brute Force Attack
+
+Target: Admin Account
+
+Indicators:
+- Multiple IP login attempts
+- Repeated authentication failures
+- Successful login after brute force attempts
+
+Attack Chain:
+1. Reconnaissance via access logs
+2. Distributed brute force attempts
+3. Successful authentication (compromise)
+4. Privilege escalation attempt
+
+Risk Level: High
+
+Recommendations:
+- Implement account lockout policies
+- Enable multi-factor authentication
+- Monitor login attempts across multiple IPs
+- Block suspicious IP ranges
