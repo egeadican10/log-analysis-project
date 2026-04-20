@@ -1,5 +1,5 @@
 🚨🚨 Security Log Analysis — Brute Force & Privilege Escalation Scenario
-
+'''
 📄 Raw Log Output
 2026-04-18 09:59:58 [INFO] GET /home
 2026-04-18 10:00:00 [INFO] GET /login
@@ -21,7 +21,7 @@
 2026-04-18 10:00:40 [ERROR] Permission denied /root (user: admin)
 
 2026-04-18 10:00:45 [WARN] Suspicious privilege escalation attempt (user: admin)
----
+'''
 
 🧠 Analysis
 
